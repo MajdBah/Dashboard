@@ -74,6 +74,11 @@ module.exports = {
             template: "./src/components/textfield.html",
         }),
 
+        new HtmlWebpackPlugin({
+            filename: "components/card.html",
+            template: "./src/components/card.html",
+        }),
+
         new MiniCssExtractPlugin({
             filename: "assets/css/styles.css"
         }),

@@ -2,11 +2,12 @@
 @import "./config/layout.scss";
 @import "./config/colors.scss";
 @import "./utilites/spacing.scss";
+@import "./utilites/mixin-cards.scss";
 @import "./base/fonts.scss";
 @import "./base/global.scss";
 @import "./base/typography.scss";
 @import "./base/links.scss";
-$bg:rgb(204, 13, 13);
+@import "./components/_components.scss";
 body {
-    background-color: $bg;
+    background-color: $color-background;
 }

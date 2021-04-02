@@ -1,13 +1,18 @@
 @import "./config/variables.scss";
 @import "./config/layout.scss";
 @import "./config/colors.scss";
+
 @import "./utilites/spacing.scss";
 @import "./utilites/mixin-cards.scss";
+
 @import "./base/fonts.scss";
 @import "./base/global.scss";
 @import "./base/typography.scss";
 @import "./base/links.scss";
+
 @import "./components/_components.scss";
-body {
-    background-color: $color-background;
-}
+
+@import "./pages/index.scss";
+@import "./pages/single-page.scss";
+
+@import "./hacks/add-product.scss";

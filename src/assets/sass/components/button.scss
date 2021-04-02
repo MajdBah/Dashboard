@@ -11,10 +11,12 @@
     background-color: $color-white;
     border: 1px solid darken($color-white, 15%);
     box-shadow: 0 1px 0 0 rgba(darken($color-primary, 30%), 0.05);
+
     &:focus {
         outline: none;
         border: 2px solid $color-primary;
     }
+
     &:hover {
         background-color: darken($color-white, 3%);
     }
@@ -24,9 +26,11 @@
     color: $color-white;
     background-color: $color-primary;
     border-color: darken($color-primary, 5%);
+
     &:hover {
         background-color: darken($color-primary, 5%);
     }
+
     &:focus {
         background-color: darken($color-primary, 10%);
     }
@@ -36,6 +40,7 @@
     color: $color-white;
     background-color: $color-red;
     border-color: darken($color-red, 5%);
+
     &:hover {
         background-color: darken($color-red, 5%);
     }
@@ -45,6 +50,7 @@
     color: $color-content;
     background-color: transparent;
     border-color: $color-content;
+
     &:hover {
         background-color: transparent;
     }
@@ -53,4 +59,12 @@
 .c-btn--slim {
     padding-top: 4px;
     padding-bottom: 4px;
+}
+
+.c-btn--icon {
+    font-size: 20px;
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    padding: 0;
 }
